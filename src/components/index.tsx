@@ -1,4 +1,5 @@
 import Movie from './Movie';
+import StarRating from './rating/StarRaiting';
 import WatchedMovie from './WatchedMovie';
 import WatchedMovieSummary from './WatchedMovieSummary';
 import CloseableBox from './layout/CloseableBox';
@@ -8,9 +9,9 @@ import NavBar from './navbar/NavBar';
 import Search from './navbar/search/Search';
 import SearchResults from './navbar/search/SearchResults';
 
-export { CloseableBox, List };
-export { Logo };
 export { Movie };
-export { NavBar };
-export { Search, SearchResults };
+export { StarRating };
 export { WatchedMovie, WatchedMovieSummary };
+export { CloseableBox, List };
+export { Logo, NavBar };
+export { Search, SearchResults };
