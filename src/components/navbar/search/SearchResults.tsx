@@ -6,7 +6,7 @@ type Props = {
 
 const SearchResults: FC<Props> = ({ resultsNumber }) => {
   return (
-    <p className='search-results'>
+    <p className='search-results' data-testid='search-results'>
       Found <strong>{resultsNumber}</strong> results
     </p>
   );

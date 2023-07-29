@@ -10,6 +10,7 @@ const Search: FC = () => {
       placeholder='Search movies...'
       value={query}
       onChange={e => setQuery(e.target.value)}
+      data-testid='search'
     />
   );
 };

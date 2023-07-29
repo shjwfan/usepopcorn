@@ -11,6 +11,7 @@ const StarSvg: FC<Props> = ({ color }) => {
       viewBox='0 0 24 24'
       fill='none'
       stroke={color}
+      data-testid='star-svg'
     >
       <path
         strokeLinecap='round'

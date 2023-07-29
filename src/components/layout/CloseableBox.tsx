@@ -4,7 +4,7 @@ const CloseableBox: FC<PropsWithChildren> = ({ children }) => {
   const [isClosed, setIsClosed] = useState<boolean>(() => false);
 
   return (
-    <div className='box'>
+    <div className='box' data-testid='box'>
       <button
         className='btn-toggle'
         onClick={() => setIsClosed(isClosed => !isClosed)}
