@@ -1,8 +1,11 @@
-import { FC, useState } from 'react';
+import { FC } from 'react';
 
-const Search: FC = () => {
-  const [query, setQuery] = useState<string>(() => '');
+type Props = {
+  query: string;
+  setQuery: (query: string) => void;
+};
 
+const Search: FC<Props> = ({ query, setQuery }) => {
   return (
     <input
       className='search'

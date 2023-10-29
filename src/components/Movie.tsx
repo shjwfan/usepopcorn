@@ -6,7 +6,7 @@ type Props = {
 
 const Movie: FC<Props> = ({ movie }) => {
   return (
-    <li key={movie.imdbId}>
+    <li key={movie.imdbID}>
       <img src={movie.poster} alt={`${movie.title} poster`} />
       <h3>{movie.title}</h3>
       <div>

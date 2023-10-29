@@ -23,6 +23,8 @@ module.exports = {
       { allowConstantExport: true },
     ],
     '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-unsafe-assignment': 'off', // currently off no unsafe assignment
+    '@typescript-eslint/no-unsafe-member-access': 'off', // currently off no unsafe member access
   },
   ignorePatterns: ['*.cjs'],
 };

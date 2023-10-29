@@ -1,6 +1,6 @@
 namespace models {
   type Movie = {
-    imdbId: string;
+    imdbID: string;
     title: string;
     year: string;
     poster: string;

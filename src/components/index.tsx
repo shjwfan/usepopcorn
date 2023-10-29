@@ -1,3 +1,4 @@
+import ErrorMessage from './ErrorMessage.tsx';
 import Movie from './Movie';
 import TextExpander from './TextExpander';
 import StarRating from './rating/StarRaiting';
@@ -10,6 +11,7 @@ import NavBar from './navbar/NavBar';
 import Search from './navbar/search/Search';
 import SearchResults from './navbar/search/SearchResults';
 
+export { ErrorMessage };
 export { Movie };
 export { TextExpander };
 export { StarRating };
